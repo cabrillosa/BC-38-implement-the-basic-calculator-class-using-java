@@ -11,11 +11,11 @@ class Program
 
         //get first number
         System.out.print("Enter first number:");
-        calc.setFirstNumber(sc.nextInt());
+        calc.setFirstNumber(sc.nextDouble());
 
         //get second number
         System.out.print("Enter second number:");
-        calc.setSecondNumber(sc.nextInt());
+        calc.setSecondNumber(sc.nextDouble());
 
         //get operator
         System.out.print("Enter operations (+ - * /):");
